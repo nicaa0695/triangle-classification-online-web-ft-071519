@@ -5,6 +5,6 @@ class Triangle
     @sencond_length = sencond_length 
     @third_length = third_length
   end 
-  def kind
+  
     
 end
