@@ -15,7 +15,7 @@ class Triangle
       return false 
     end 
   end 
-end
+
   def kind 
     if valid? 
       if @triangle_sides.uniq.length == 1 
