@@ -1,10 +1,11 @@
 class Triangle
-  attr_accessor :first_length, :sencond_length, :third_length
-  def initialize(first_length:, sencond_length:, third_length:)
-    @first_length = first_length 
-    @sencond_length = sencond_length 
-    @third_length = third_length
+  def initialize(side_1, side_2, side_3)
+    @triangle_sides = [] 
+    @triangle_sides << side_1 
+    @triangle_sides << side_2
+    @triangle_sides << side_3
   end 
+  
   
     
 end
